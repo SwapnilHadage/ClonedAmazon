@@ -193,6 +193,9 @@ align-items: center;
     background-color: #232b3c;
     color: white;
     align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
 }
 .menu{
     height: 40px;
@@ -202,12 +205,17 @@ align-items: center;
     align-items: center;
 }
 .txt{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     padding: 5px;
     align-items: center;
     text-align: center;
     height: 40px;
     margin: 5px;
+}
+.txt p{
+    font-size: 1rem;
+    padding-top: 3px;
+
 }
 
 /* Sliding Section */
@@ -259,7 +267,7 @@ align-items: center;
 
 .product-txt{
     margin-top: 15px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 700;
 }
 .product00{
@@ -309,12 +317,7 @@ section p{
     font-size: 1.2rem;
     font-weight: 700;
 }
-.txt-two{
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #2162a1;
-    font-weight: none;
-}
+
 section{
     height: 170px;
     margin-top: 20px;
@@ -356,12 +359,15 @@ li{
     color: #cccccc;
 }
 .footer1{
-    height: 40px;
+    height: 50px;
     background-color: #34445c;
-    color: wheat;
-    font-size: 0.8rem;
+    color: white;
+    font-size: 1rem;
     text-align: center;
-    padding: 13px;
+    padding: 15px;
+}
+.footer1:hover{
+    background-color:#475b79;
 }
 .footer2{
     padding: 20px;
@@ -369,6 +375,14 @@ li{
     background-color: #242c3d;
     display: flex;
     justify-content: space-evenly;
+}
+.footer2 .txt-one{
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.footer li{
+    font-size: 1rem;
 }
 .footer3{
     padding: 20px;
@@ -380,6 +394,7 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 select{
@@ -421,18 +436,20 @@ select{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
     margin-bottom: 10px;
     text-align: center;
 }
 .txt1{
     font-size: 0.8rem;
     font-weight: 600;
-    color: #cccccc;
+    color: #ffffff;
 }
 
-.txt{
+.txt2{
     font-size: 0.7rem;
     font-weight:lighter;
+    color: #cccccc;
 }
 
 .list{
